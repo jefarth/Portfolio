@@ -1,24 +1,55 @@
+html {
+    background: #000;
+    font-family: monospace;
+    font-size: 100%;
+}
+
 /* Universal selector */
 * {
-    background-color:darkslateblue;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 0;
+    min-width: 0;
+    font-family: inherit;
 }
 
 /* Header selector */
 header {
-    position: fixed;
+    position: relative;
+    border-bottom: 5px solid #682ae9;
+}
+
+/* Properly spaces the Header */
+.header-container {
     display: flex;
-    margin: 31px;
-    border-bottom: 5px solid #FFD700;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Give navigation links specific color */
+.header-nav a {
+    color: #888;
 }
 
 /* List selectors */
-ul {
-    margin: 15px;
+/* Removes line under link display */
+a {
+    text-decoration: none;
 }
+
+/* Specifies color and placement of the link items */
 li {
     display: inline;
-    padding: 10px;
+    padding: 10px 10px 0 0;
     text-decoration: none;
+    color: #888;
+    cursor: pointer;
+}
+
+/* Gives my name independent styling */
+h1 {
+    color: white;
+    padding: 5px 15px 0 15px;
 }
