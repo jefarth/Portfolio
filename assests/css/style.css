@@ -1,5 +1,6 @@
 html {
     background: #000;
+    color: white;
     font-family: monospace;
     font-size: 100%;
 }
@@ -30,7 +31,7 @@ header {
 
 /* Give navigation links specific color */
 .header-nav a {
-    color: #888;
+    color: #dbdbdb;
 }
 
 /* List selectors */
@@ -50,6 +51,15 @@ li {
 
 /* Gives my name independent styling */
 h1 {
-    color: white;
     padding: 5px 15px 0 15px;
+}
+
+/* Colors text gray */
+.color-gray {
+    color: #888;
+}
+
+/* Centers text */
+.center-text {
+    text-align: center;
 }
