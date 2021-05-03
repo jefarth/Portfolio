@@ -1,24 +1,81 @@
-html {
-    background: #000;
-    color: white;
-    font-family: monospace;
-    font-size: 100%;
-}
-
-/* Universal selector */
-* {
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    min-height: 0;
-    min-width: 0;
-    font-family: inherit;
+    font-family: monospace;
+    color: white;
 }
 
-/* Header selector */
+aside, header, footer, main, span {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Creates grid */
+.grid {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: min-content auto min-content;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: #000;
+}
+
+/* Sets placement with colors */
+aside {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #000;
+    border: 1px solid #682ae9;
+}
+
+  /* Sets placement with colors */
 header {
-    position: relative;
-    border-bottom: 5px solid #682ae9;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: #000;
+    border: 1px solid #682ae9;
+}
+  
+/* Sets placement with colors */
+footer {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: #000;
+    border: 1px solid #682ae9;
+}
+  
+/* Sets placement with colors */
+main {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #000;
+    border: 1px solid #682ae9;
+}
+
+/* Removes link link and changes color */
+a {
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+  
+h1, h2, p {
+    padding: 5px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* Class selectors */
+
+/* Specifies color and placement of the link items */
+.nav-li {
+    display: inline;
+    padding: 10px 10px 0 0;
+    color: #888;
+    cursor: pointer;
 }
 
 /* Properly spaces the Header */
@@ -26,40 +83,69 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
 }
 
-/* Give navigation links specific color */
-.header-nav a {
-    color: #dbdbdb;
+/* Makes projects wrap to end */
+.flex-wrapper {
+    display: flex;
 }
 
-/* List selectors */
-/* Removes line under link display */
-a {
-    text-decoration: none;
+/* Styles the project placeholders */
+.project {
+    display: inline-block;
+    height: 1500px;
+    margin: 1500px;
+    background-color: #D6D5D5;
+    border: 1px solid #ff0000;
+    flex-grow: 1;
+    margin: 0 20px;
 }
 
-/* Specifies color and placement of the link items */
-li {
-    display: inline;
-    padding: 10px 10px 0 0;
-    text-decoration: none;
-    color: #888;
-    cursor: pointer;
+img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
 }
 
-/* Gives my name independent styling */
-h1 {
-    padding: 5px 15px 0 15px;
-}
-
-/* Colors text gray */
+    /* Colors text gray */
 .color-gray {
     color: #888;
 }
 
-/* Centers text */
+    /* Centers text */
 .center-text {
     text-align: center;
+}
+
+    /* Pushes content right */
+.right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.down {
+    padding-top: 30px;
+}
+  
+  @media only screen and (max-width: 800px) {
+
+    /* Changes to code to arrange aside below article. */
+  .grid {
+      display: flex;
+      flex-direction: column;
+    } 
+    
+    .flex-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    aside {
+      order: 1
+    }
+    
+    footer {
+      order: 2;
+    }
 }
