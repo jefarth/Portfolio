@@ -53,6 +53,10 @@ img {
     color: #682ae9;
 }
 
+.bg-purple {
+    background-color: #682ae9;
+}
+
 .purple-border {
     border: 1px solid #682ae9;
 }
