@@ -10,6 +10,8 @@ This is my portfolio page. Here you can find my current projects as well as rela
 I am still new to the world of development so my page is a bit barren still, but please check back often to see all updates that come!
 
 ***
+### Screenshots
+![Preview](./assests/images/portfolio-lower.png) 
 
 ### Technologies Used
 
