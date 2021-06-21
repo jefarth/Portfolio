@@ -1,5 +1,7 @@
 # READ ME
 
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+
 ## Welcome to my Portfolio!
 [See it here](https://jefarth.github.io/Portfolio/)
 
