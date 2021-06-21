@@ -17,6 +17,13 @@ I am still new to the world of development so my page is a bit barren still, but
 
 ![Preview](./assests/images/portfolio-bottom.png)
 
+### Contact Information
+
+* jefarth.dev@gmail.com
+* (720) 515-7306‬
+
+***
+
 ### Technologies Used
 
  * HTML
