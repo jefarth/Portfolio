@@ -15,11 +15,13 @@ I am still new to the world of development so my page is a bit barren still, but
 ### Screenshots
 ![Preview](./assests/images/portfolio-lower.png) 
 
+![Preview](./assests/images/portfolio-bottom.png)
+
 ### Technologies Used
 
-<li> HTML </li>
-<li> CSS </li>
-<li> MDBootstrap </li>
+ * HTML
+ * CSS
+ * MDBootstrap
 
  ***
 
