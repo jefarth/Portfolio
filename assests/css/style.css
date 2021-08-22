@@ -3,12 +3,13 @@
 /* Adds a scroll bar to the sidebar */
 html {
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 /* Styles font of page */
 html, body {
     font-family: monospace;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* Colors the links */
@@ -43,6 +44,12 @@ img {
     padding: 10px;
 }
 
+/* Removes bullet point from list elements */
+li {
+    list-style: none;
+}
+/* ---------------------------------------------------------------- */
+
 /* Class selectors */
 
 .full {
@@ -58,5 +65,5 @@ img {
 }
 
 .purple-border {
-    border: 1px solid #682ae9;
+    border-top: 1px solid #682ae9;
 }
