@@ -1,36 +1,30 @@
-# READ ME
+# Welcome to my portfolio!
+  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+  ## Description
+This is my portfolio page. Please feel free to look around and check out the live page [here](https://jefarth.github.io/Portfolio/).
 
-## Welcome to my Portfolio!
-[See it here](https://jefarth.github.io/Portfolio/)
+![Preview](./assests/images/port-top.png)
 
-![Preview](./assests/images/portfolio-main.png) 
-
-This is my portfolio page. Here you can find my current projects as well as related links of interest.
-
-I am still new to the world of development so my page is a bit barren still, but please check back often to see all updates that come!
-
-***
-### Screenshots
-![Preview](./assests/images/portfolio-lower.png) 
-
-![Preview](./assests/images/portfolio-bottom.png)
-
-### Contact Information
-
-* jefarth.dev@gmail.com
-* (720) 515-7306‬
+## Table of Contents 
+* [Screenshots](#screenshots)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
 
 ***
+## Screenshots
+![Preview](./assests/images/port-about.png)
 
-### Technologies Used
+![Preview](./assests/images/port-project.png)
 
- * HTML
- * CSS
- * MDBootstrap
+![Preview](./assests/images/port-bottom.png)
 
- ***
+## License
+This project is licensed under the MIT License.
 
-### References
-[iuri.is](https://iuri.is/)
+## Contributing or Questions
+Contributing or Questions: Please follow below to view my contact information if you have any contributions you want to make or questions to ask.
+
+## Contact Information
+If you have any questions about the repo, please contact "jefarth" directly at jefarth.dev@gmail.com or leave a message at (720) 515-7306‬.
