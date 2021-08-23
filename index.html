@@ -45,11 +45,12 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item active">
                 <a class="nav-link" aria-current="page" href="#home" title="Return to main page">.main()</a>
+              </li>
               <li class="nav-item">
-                <li class="nav-item">
-                  <a class="nav-link" href="#work" title="All about me">.work()</a>
-                </li>
                 <a class="nav-link" href="#about-me" title="All about me">.aboutMe()</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work" title="All about me">.projects()</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact" title="Send me an email or voicemail">.contactMe()</a>
@@ -69,180 +70,173 @@
       <div id="home" class="col-12 text-center full">
         <h1 class="mb-3">Jeremiah Farthing</h1>
         <h4 class="mb-3 text-white-50">Full Stack Web Developer</h4>
-        <a class="btn btn-light btn-floating mb-3" href="#contact" role="button"><i class="fas fa-angle-double-down fa-3x purple"></i></a>
+        <a class="btn btn-light btn-floating mb-1" href="#contact" role="button"><i class="fas fa-angle-double-down fa-3x purple"></i></a>
       </div>
     </header>
 
     <!-- Content -->
-    <div>
-      <!-- About Me -->
-      <main id="about-me" class="p-5 row d-flex justify-content-center purple-border text-center">
-        <h3>About Me</h3>
+    <!-- About Me -->
+    <main id="about-me" class="p-5 row d-flex justify-content-center purple-border text-center">
+      <h3>About Me</h3>
 
-        <p class="col-md-9 text-white-50 pb-5">
-          I am a student engaged in learning 
-          full stack web development through the Univeristy of Denver Boot Camp.
-          I know how to speak the languages of HTMl, CSS, and JavaScript.
-          All of my projects and applications are hosted on Github and Heroku.
-        </p>
+      <p class="col-md-9 text-white-50 pb-5">
+        I am a student engaged in learning 
+        full stack web development through the Univeristy of Denver Boot Camp.
+        I know how to speak the languages of HTMl, CSS, and JavaScript.
+        All of my projects and applications are hosted on Github and Heroku.
+      </p>
        
         
-        <section class="row">
-          <!-- Front End -->
-          <div class="col-md-6 py-5">
-            <h4>Front End Development</h4>
-            <p class="text-white-50">
-              I enjoy trying new ideas and seeing powerful creations get built from nothing.
-            </p>
-            <h5 class="pt-3">
-              Aquired Skills:
-            </h5>
-            <ul class="text-white-50 list-group list-group-flush">
-              <li>jQuery</li>
-              <li>Bootstrap</li>
-              <li>Figma</li>
-              <li>DOM manipulation</li>
-              <li>Consuming RESTful APIs</li>
-            
-            </ul>
-          </div>
+      <section class="row">
+        <!-- Front End -->
+        <div class="col-md-6 py-5">
+          <h4>Front End Development</h4>
+          <p class="text-white-50">
+            I enjoy trying new ideas and seeing powerful creations get built from nothing.
+          </p>
+          <h5 class="pt-3">
+            Aquired Skills:
+          </h5>
+          <ul class="text-white-50 list-group list-group-flush">
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>Figma</li>
+            <li>DOM manipulation</li>
+            <li>Consuming RESTful APIs</li>
+          </ul>
+        </div>
 
-          <!-- Back End -->
-          <div class="col-md-6 py-5">
-            <h4>Back End Development</h4>
-            <p class="text-white-50">
-              I love creating applications that users can interact with and the boundless possibilities of programming.
-            </p>
-            <h5 class="pt-3">
-              Aquired Skills:
-            </h5>
-            <ul class="text-white-50 list-group list-group-flush">
-              <li>Node.js</li>
-              <li>MYSQL</li>
-              <li>npm</li>
-              <li>Computer Science applied to Javascript</li>
-              <li>OOP and the MVC paradigm</li>
-            </ul>
-          </div>
-        </section>
-        <!-- <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.L7wig7rOO63m9DDfBQSs9wHaE8%26pid%3DApi&f=1"
-        alt="Computer with html"> -->
-      </main>
+        <!-- Back End -->
+        <div class="col-md-6 py-5">
+          <h4>Back End Development</h4>
+          <p class="text-white-50">
+            I love creating applications that users can interact with and the boundless possibilities of programming.
+          </p>
+          <h5 class="pt-3">
+            Aquired Skills:
+          </h5>
+          <ul class="text-white-50 list-group list-group-flush">
+            <li>Node.js</li>
+            <li>MYSQL</li>
+            <li>npm</li>
+            <li>Computer Science applied to Javascript</li>
+            <li>OOP and the MVC paradigm</li>
+          </ul>
+        </div>
+      </section>
+      <!-- <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.L7wig7rOO63m9DDfBQSs9wHaE8%26pid%3DApi&f=1"
+      alt="Computer with html"> -->
+    </main>
 
-      <!-- Projects -->
-      <content id="work" class="row p-5 d-flex flex-wrap justify-content-center purple-border text-center">
-        <h3>Projects</h3>
-        <!-- Project 1 -->
-        <div class="row gap-4 m-5">
-          <div class="card bg-dark m-4" style="width: 18rem;">
-            <img
-              src="./assests/images/note-taker.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title text-white">Note Taker</h5>
-              <p class="card-text text-white-50">
-                Take notes and save them to view later!
-              </p>
-              <a href="https://jefarth-note-taker.herokuapp.com/" target="_blank" class="btn btn-light m-2">Live Site!</a>
-              <a href="https://github.com/jefarth/Note-Taker" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
-            </div>
-          </div>
-          <!-- Project 2 -->
-          <div class="card bg-dark m-4" style="width: 18rem;">
-            <img
-              src="./assests/images/rpg-character.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title text-white">RPG Character Creator</h5>
-              <p class="card-text text-white-50">
-                Create an account to gain the ability to make a custom character for your next DnD playthrough or any other RPG adventure!
-              </p>
-              <a href="https://jefarth-rpg-database.herokuapp.com/" target="_blank" class="btn btn-light m-2">Live Site!</a>
-              <a href="https://github.com/jefarth/rpg-character-sheet" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
-            </div>
-          </div>
-          <!-- Project 3 -->
-          <div class="card bg-dark m-4" style="width: 18rem;">
-            <img
-              src="./assests/images/tech-blog.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title text-white">Tech Blog</h5>
-              <p class="card-text text-white-50 ">
-                Sign in to discuss tech with all your friends! Create your own posts or comment on others!
-              </p>
-              <a href="https://jefarth-tech-blog.herokuapp.com/" target="_blank" class="btn btn-light m-2">Live Site!</a>
-              <a href="https://github.com/jefarth/tech-blog" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
-            </div>
-          </div>
-          <!-- Project 4 -->
-          <div class="card bg-dark m-4" style="width: 18rem;">
-            <img
-              src="./assests/images/stock-scanner.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title text-white">Stock Scanner</h5>
-              <p class="card-text text-white-50">
-                Look up stocks by symbol to see current prices and get a ten day history graph!
-              </p>
-              <a href="https://jefarth.github.io/StockScanner/" target="_blank" class="btn btn-light m-2">Live Site!</a>
-              <a href="https://github.com/jefarth/StockScanner" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
-            </div>
-          </div>
-          <!-- Project 5 -->
-          <div class="card bg-dark m-4" style="width: 18rem;">
-            <img
-              src="./assests/images/weather-dashboard.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title text-white">Weather Dashboard</h5>
-              <p class="card-text text-white-50">
-                Look up any city to get a weather forcast! Displays current weather information
-                as well as a five day forcast!
-              </p>
-              <a href="https://jefarth.github.io/Weather-Dashboard/" target="_blank" class="btn btn-light m-2">Live Site</a>
-              <a href="https://github.com/jefarth/Weather-Dashboard" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
-            </div>
+    <!-- Projects -->
+    <content id="work" class="row p-5 d-flex flex-wrap justify-content-center purple-border text-center">
+      <h3>Projects</h3>
+      <!-- Project 1 -->
+      <div class="row gap-4 m-5">
+        <div class="card bg-dark m-4" style="width: 18rem;">
+          <img
+            src="./assests/images/note-taker.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-white">Note Taker</h5>
+            <p class="card-text text-white-50">
+              Take notes and save them to view later!
+            </p>
+            <a href="https://jefarth-note-taker.herokuapp.com/" target="_blank" class="btn btn-light m-2">Live Site!</a>
+            <a href="https://github.com/jefarth/Note-Taker" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
           </div>
         </div>
-      </content>
-    </div>
+        <!-- Project 2 -->
+        <div class="card bg-dark m-4" style="width: 18rem;">
+          <img
+            src="./assests/images/rpg-character.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-white">RPG Character Creator</h5>
+            <p class="card-text text-white-50">
+              Create an account to gain the ability to make a custom character for your next DnD playthrough or any other RPG adventure!
+            </p>
+            <a href="https://jefarth-rpg-database.herokuapp.com/" target="_blank" class="btn btn-light m-2">Live Site!</a>
+            <a href="https://github.com/jefarth/rpg-character-sheet" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="card bg-dark m-4" style="width: 18rem;">
+          <img
+            src="./assests/images/tech-blog.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-white">Tech Blog</h5>
+            <p class="card-text text-white-50 ">
+              Sign in to discuss tech with all your friends! Create your own posts or comment on others!
+            </p>
+            <a href="https://jefarth-tech-blog.herokuapp.com/" target="_blank" class="btn btn-light m-2">Live Site!</a>
+            <a href="https://github.com/jefarth/tech-blog" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="card bg-dark m-4" style="width: 18rem;">
+          <img
+            src="./assests/images/stock-scanner.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-white">Stock Scanner</h5>
+            <p class="card-text text-white-50">
+              Look up stocks by symbol to see current prices and get a ten day history graph!
+            </p>
+            <a href="https://jefarth.github.io/StockScanner/" target="_blank" class="btn btn-light m-2">Live Site!</a>
+            <a href="https://github.com/jefarth/StockScanner" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="card bg-dark m-4" style="width: 18rem;">
+          <img
+            src="./assests/images/weather-dashboard.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-white">Weather Dashboard</h5>
+            <p class="card-text text-white-50">
+              Look up any city to get a weather forcast! Displays current weather information
+              as well as a five day forcast!
+            </p>
+            <a href="https://jefarth.github.io/Weather-Dashboard/" target="_blank" class="btn btn-light m-2">Live Site</a>
+            <a href="https://github.com/jefarth/Weather-Dashboard" target="_blank" class="btn btn-light m-2">GitHub Repository</a>
+          </div>
+        </div>
+      </div>
+    </content>
 
     <!-- Contact Me -->
     <div id="contact" class="row full purple-border">
       <!-- Footer -->
       <footer class="container text-center text-lg-start text-muted">
-        <section class="">
-          <div class="text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="text-center">
-                <!-- Links -->
-                <h2 class="text-uppercase fw-bold mb-4 text-light">
-                  <i class="fas fa-gem me-3 purple"></i>
-                  Contact
-                </h2>
-                <h3 class="mb-4">
-                  <i class="fas fa-envelope me-3 text-light"></i>
-                    jefarth.dev@gmail.com
-                </h3>
-                <h3 class="mb-4">
-                  <i class="fas fa-phone me-3 text-light"></i> 
-                    (720) 515-7306
-                </h3>
-              </div>
-            </div>
+        <div class="text-md-start">
+          <div class="row">
+            <!-- Links -->
+            <h2 class="text-uppercase fw-bold m-3 text-light">
+              <i class="fas fa-gem me-3 purple"></i>
+              Contact
+            </h2>
+            <h3 class="m-4">
+              <i class="fas fa-envelope me-3 text-light"></i>
+                jefarth.dev@gmail.com
+            </h3>
+            <h3 class="m-4">
+              <i class="fas fa-phone me-3 text-light"></i> 
+                (720) 515-7306
+            </h3>
           </div>
-        </section>
+        </div>
       </footer>
     </div>
     <!-- End Grid -->
