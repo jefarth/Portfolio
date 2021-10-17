@@ -24,7 +24,7 @@ This is my portfolio page. Please feel free to look around and check out the liv
 This project is licensed under the MIT License.
 
 ## Contributing or Questions
-Contributing or Questions: Please follow below to view my contact information if you have any contributions you want to make or questions to ask.
+Contributing or Questions: Please follow below to view my contact information for any questions you want to ask.
 
 ## Contact Information
 If you have any questions about the repo, please contact "jefarth" directly at jefarth.dev@gmail.com or leave a message at (720) 515-7306‬.
