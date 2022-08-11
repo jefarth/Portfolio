@@ -27,4 +27,4 @@ This project is licensed under the MIT License.
 Contributing or Questions: Please follow below to view my contact information for any questions you want to ask.
 
 ## Contact Information
-If you have any questions about the repo, please contact "jefarth" directly at jefarth.dev@gmail.com or leave a message at (720) 515-7306‬.
+If you have any questions about the repo, please contact "jefarth" directly at jefarth.dev@gmail.com or leave a message at (720) 515-7306.
